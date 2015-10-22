@@ -1,0 +1,27 @@
+.body {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.top-wrap {
+    background: url(../content/wbimg/1.jpg) no-repeat scroll center top / cover #211810;
+    position: relative;
+}
+
+.overlay-bg {
+    position: absolute;
+    background: url("../content/wbimg/overlay.png") repeat scroll 0% 0% transparent;
+    width: 100%;
+    height: 100% !important;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.logo {
+    text-align: center;
+    margin: 0px auto;
+    display: table;
+}
